@@ -1,6 +1,4 @@
-/** Lista de valores separados por ","
- * 
- */
+// <====={Manipulación con arrays}=====>
 
 let cons = console.log
 

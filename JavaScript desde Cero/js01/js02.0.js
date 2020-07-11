@@ -99,6 +99,10 @@ console.log(numer2)
   * typeof  devuelve el tipo de dato de una variable
   * !       devuelve el valor negado de una variable
   * 
+  * spread operator:
+  * ...<variable>   //Separa el contenido de una variable por comas
+  * , ya sea lista de objetos, letras o numeros    
+  * 
   * 
   ** Operadores ternarios
   * <expresion> ? <valor true> : <valor false>
