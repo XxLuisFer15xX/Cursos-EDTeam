@@ -23,6 +23,7 @@ nombres = ['Luis', 'Fernando'];
 let arreglo: any = [2,'cadena',true];
 
 
+
 // Tuplas
 // Una variable con multiplos estados
 let infoCrusos: [string, number] = ['TypeScript', 100];
