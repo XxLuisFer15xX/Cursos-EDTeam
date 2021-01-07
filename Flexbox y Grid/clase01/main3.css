@@ -1,0 +1,35 @@
+body {
+    font-size: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    background: yellow;
+    flex-direction: row;
+    flex-flow: wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    height: 400px;
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: stretch; */
+    align-items: center;
+}
+
+.flex-item {
+    border: 1px solid #000;
+    margin: 1rem;
+    background: orange;
+    font-size: 20px;
+    width: 50px;
+}
+
+.button {
+    background-color: yellow;
+    display: inlene-flex;
+    padding: .5em 1em;
+}

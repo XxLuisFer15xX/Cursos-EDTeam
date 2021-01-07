@@ -1,0 +1,45 @@
+Flexbox
+En el flexbox hay dos ejes:
+	* el main axis que es el horizontal
+	* y el cross axis que es el vertical
+
+
+Layout con flex: >flex-container
+	display: flex; indica que el div sera un flexbox
+	display: none;						//Oculta el div
+	display: flex;						//Abacarca todo el ancho
+	display: inline-flex;				//Solo abarca hasta el contenido interndo del div
+
+	flex-direction: maneja el eje main
+    flex-direction: row;
+    flex-direction: row-reverse;
+	flex-direction: column;
+	flex-direction: column-reverse;
+
+
+	flex-wrap: maneja el eje cross
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+
+Alineamientos horizontal:
+	justify-content: flex-start;		// Aline los items a la izquieda
+	justify-content: center;			// Aline los items al centro
+	justify-content: flex-end;			// Aline los items a la derecha
+	justify-content: space-around;		// Genero un espacio al rededor de los items
+	justify-content: space-between;		// Genero un espacio entre los items
+
+Alinemamientos Vertical: (Por lineas, si es que existe un wrap)
+	align-items: flex-start;			// Alinea los items al inicio
+	align-items: center;				// Alinea los items en el centro
+	align-items: flex-end;				// Alinea los items al final
+	align-items: stretch;				// Extiende los items hasta el final del div contenedor,
+										// Pero el item no tiene que tener una altura definida
+	align-items: baseline;				// Aline los items respecto a su linea base
+
+Alineamientos Vertical: (Respecto a todo el contenido)
+	align-content: flex-start;
+	align-content: center;
+	align-content: flex-end;
+	align-content: stretch;
+	align-content: baseline;

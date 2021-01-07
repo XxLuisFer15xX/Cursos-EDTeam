@@ -1,0 +1,29 @@
+body {
+    font-size: 4rem;
+}
+
+.flex-container {
+    display: flex;
+    background: yellow;
+    flex-direction: row;
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+	flex-direction: row-reverse; */
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.flex-item {
+    border: 1px solid #000;
+    margin: 1rem;
+    background: orange;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    background-color: yellow;
+    display: inlene-flex;
+    padding: .5em 1em;
+}
