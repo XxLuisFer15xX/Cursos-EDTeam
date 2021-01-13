@@ -68,7 +68,7 @@
   },
   "include":[
 	  "src/**/*.ts" //Se compila todos los archivos ts y todas las carpetas anidadas
-  ],
+, "src/clase-05/5. librerias para ts.txt"  ],
   "exclude":[
 	  "src/*-test.ts" //Todos los archivos que terminen en "-test.ts"
   ]

@@ -1,0 +1,7 @@
+npm install -g typescript			//Instala TypeScript
+tsc --version						//Visualiza la version
+tsc src/hola.ts						//Compila un archivo ts
+node src/hola.js					//Ejecuta un archivo js
+tsc --init                          //Crea el archivo tsconfig.json
+tsc --watch src/hola.ts				//Compila en tiempo real un archivo, segun el archivo tsconfig.json
+tsc --watch							//Compila todo en tiempo real, segun el archivo tsconfig.json
